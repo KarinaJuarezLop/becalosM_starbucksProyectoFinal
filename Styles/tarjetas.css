@@ -25,16 +25,28 @@ body{
 
 #tarjeta-dos{
     background-color: #0044b4;
+    overflow: hidden;
 }
 
 #tarjeta-dos .contenedor-imagen{
+    float: right;
     width: 50%;
     vertical-align: middle;
+    text-align: right;
 }
 
 #tarjeta-dos .contenedor-imagen .imagen-starbucks{
     max-width: 100%;
-    float: right;
+}
+#tarjeta-dos .contenedor-texto{
+    float: center;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    width: 364px;
+}
+#tarjeta-dos .contenedor-interno{
+    display: inline-block;
 }
 
 #tarjeta-tres{
@@ -51,16 +63,25 @@ body{
 }
 
 #tarjeta-cuatro{
-    background-color: #1E3932;
+    background-color:  #1E3932;
+    overflow: hidden;
 }
 
 #tarjeta-cuatro .contenedor-imagen{
+    float: right;
     width: 50%;
     vertical-align: middle;
+    text-align: right;
 }
 
 #tarjeta-cuatro .contenedor-imagen .imagen-starbucks{
     max-width: 100%;
+}
+#tarjeta-cuatro .contenedor-texto{
+    float: left;
+    color: white;
+    text-align: center;
+    width: 364px;
 }
 
 #tarjeta-cinco{
@@ -68,15 +89,16 @@ body{
 }
 
 #tarjeta-cinco .contenedor-imagen{
+    float: left;
     width: 50%;
     vertical-align: middle;
+    text-align: center;
 }
 
 #tarjeta-cinco .contenedor-imagen .imagen-starbucks{
     max-width: 100%;
 }
-
-.Boton {
+#tarjeta-cinco .Boton {
     background-color: #d50032;
     border-color: #ffffff;
     color:  #ffffff;
@@ -85,4 +107,10 @@ body{
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
+}
+#tarjeta-cinco .contenedor-texto{
+    float: left;
+    color: white;
+    text-align: center;
+    width: 364px;
 }
